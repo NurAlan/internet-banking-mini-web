@@ -1,0 +1,76 @@
+* {
+    /*style default awal yaitu margin 0px, padding 0px dan jenis font Arial*/
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    /*mengubah ukuran lebar 100%, ukuran font 120px dan background berwarna putih abu-abu*/
+    width: 100%;
+    font-size: 120%;
+    background: #F9F9F9;
+}
+
+/*Style untuk header*/
+.header {
+    background-color: #5050FF;/*mengatur warna background*/
+    color: white;/*mengatur warna font*/
+    padding: 10px ; /*mengatur jarak content dengan border*/
+    text-align: center;/*mengatur text align ke tengah */
+    border: 1px solid #B0C4DE; /*menambah border*/
+}
+.header img {
+    border: 0px solid gray; /*menambah border*/
+}
+.sub-header {
+    color: #5050FF;/*mengatur warna font*/
+    background-color: #F1F1F1;/*mengatur warna background*/
+    padding: 30px 50px;/*mengatur jarak content dengan border*/
+}
+.sub-header h2 {
+    float: left;/*mengatur sifat layout*/
+}
+.sub-header h4 {
+    text-align: right;/*mengatur posisi text*/
+    overflow: hidden;/*mengatur overflow text hyperlink*/
+}
+.sub-header h4 a {
+    background: #F9F9F9;/*mengatur warna backgroud*/
+    padding: 5px;/*mengatur padding*/
+    text-decoration: none;/*mengatur dekorasi teks*/
+}
+.sub-header h4 a:hover {
+    background: #EEE;/*mengatur warna background*/
+}
+
+
+.container {
+    background-color: #F9F9F9;/*mengatur warna background*/
+}
+
+.tabel {
+    margin: 5px auto;/*mengatur margin*/
+    text-align: center;/*mengatur posisi teks*/
+    border: 1px solid gray;/*menambah border*/
+}
+.tabel tr td{
+    padding: 2px 5px;/*mengatur padding*/
+    font-size: 12px; /*mengatur ukuran font*/
+    border: 1px solid gray;/*mengambah border*/
+}
+.tabel tr td img {
+    border: 0px solid black;/*mengatur border*/
+    border-radius: 5px;/*mengatur border radius*/
+    width: 200px;/*mengatur lebar layout*/
+    height: 200px;/*mengatur tinggi layout*/
+}
+
+div.footer {
+    clear: both;/*mengatur sifat layout*/
+    background-color: #5050FF;/*mengatur warna background*/
+    color: white;/*mengatur warna font*/
+    padding: 20px ;/*mengatur padding*/
+    text-align: center;/*mengatur posisi teks*/
+    margin-top: 10px;/*mengatur margin atas*/
+}

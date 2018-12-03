@@ -1,0 +1,148 @@
+.column {
+    float: left;/*mengatur sifat lyout*/
+    padding-top: 5px;/*mengatur padding atas*/
+}
+
+.column.side {
+    width: 14%;/*mengatur lebar layout*/
+    padding-left: 2%;/*mengatur padding kiri*/
+    
+
+}
+.nav {
+    overflow: hidden;/*mengatur overflow text hyperlink*/
+    background: #ddd;/*mengatur warna background*/
+    border: 0px solid #ddd;/*menambah border*/
+    border-radius: 5px;/*mengatur border radius*/
+}
+
+.nav a {
+    float: left;/*mengatur sifat layout*/
+    color: #000;/*mengatur warna font*/
+    text-align: center;/*mengatur posisi teks*/
+    padding: 14px 0px;/*mengatur padding*/
+    text-decoration: none;/*mengatur dekorasi teks*/
+    width: 100%;/*mengatur lebar layout*/
+    font-size: 100%;/*mengatur ukuran font*/
+}
+.nav a[href="../logout.php"] {
+    float: left;/*mengatur sifat layout*/
+    color: #000;/*mengatur warna font*/
+    text-align: center;/*mengatur posisi teks*/
+    padding: 14px 0px;/*mengatur padding*/
+    text-decoration: none;/*mengatur dekorasi teks*/
+    width: 100%;/*mengatur lebar layout*/
+    font-size: 100%;/*mengatur ukuran font*/
+    background: red;/*mengatur warna background*/
+    color: white;/*mengatur warna font*/
+}
+
+.nav a:hover {
+    background-color: #A1A1A1;/*mengatur warna background*/
+    color: #FFF;/*mengatur warna font*/
+    border: 0px solid #ddd;/*menambah border*/
+    border-radius: 5px;/*mengatur border radius*/
+    font-size: 100%;/*mengatur ukuran font*/
+}
+
+
+
+.column.middle {
+    width: 82%;/*mengatur lebar layout*/
+    padding-left: 2%;/*mengatur padding kiri*/
+    /*padding-right: 1%;*/
+}
+
+.column.middle th {
+    background-color: #5050FF;/*mengatur warna background*/
+    color: #FFF;/*mengatur warna font*/
+    border: 1px solid #010101;/*mengatur border*/
+    font-size: 12px;/*mengatur ukuran font*/
+    padding: 5px;/*mengatur padding*/
+}
+
+.column.middle td {
+    border: 1px solid #010101;/*mengatur border*/
+    text-align: center;/*mengatur posisi teks*/
+    font-size: 10px;/*mengatur ukuran font*/
+    padding: 5px;/*mengatur padding*/
+    background-color: #f8f8ff;/*mengatur warna background*/
+}
+
+.row:after {
+    content: "";
+    display: table;/*mengatur display*/
+    clear: both;/*mengatur sifat layout*/
+}
+
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;/*mengatur ukuran lebar layout*/
+    }
+}
+
+.btn-edit {
+    background: #ffff4d;/*mengatur warna background*/
+    color: black;/*mengatur warna font*/
+    padding: 10px;/*mengatur padding*/
+    border: 0px solid black;/*mengatur border*/
+    border-radius: 5px;/*mengatur border radius*/
+}
+.btn-edit:hover {
+    background: #ffff6a;/*mengatur warna background*/
+    font-size: 100%;/*mengatur ukuran font*/
+    
+}
+.btn-delete {
+    border: 0px solid black;/*mengatur border*/
+    border-radius: 5px;/*mengatur border radius*/
+    background: #cc0000;/*mengatur warna background*/
+    padding: 10px;/*mengatur padding*/
+}
+
+.btn-delete:hover {
+    background: #990000;/*mengatur warna background*/
+    font-size: 100%;/*mengatur ukuran font*/
+    
+}
+
+.btn-add {
+    border: 0px solid black;/*mengatur border*/
+    border-radius: 5px;/*mengatur border radius*/
+    background: #ddd;/*mengatur warna background*/
+    padding: 10px;/*mengatur padding*/
+}
+
+.btn-add:hover {
+    background: #bbb;/*mengatur warna background*/
+    font-size: 100%;/*mengatur ukuran font*/
+    
+}
+.a-customer {
+    overflow: hidden;/*mengatur overflow text hyperlink*/
+    height: 30px;/*mengatur tinggi layout*/
+}
+.a-customer a.btn-edit {
+    text-decoration: none;/*mengatur dekorasi teks*/
+    padding: 10px;/*mengatur padding*/
+    color: black;/*mengatur warna font*/
+    
+}
+.a-customer a.btn-delete{
+    color: white;/*mengatur warna font*/
+    text-decoration: none;/*mengatur dekorasi teks*/
+    padding: 10px;/*mengatur padding*/
+}
+.a-customer a.btn-add{
+    color: black;/*mengatur warna font*/
+    text-decoration: none;/*mengatur dekorasi teks*/
+    padding: 10px;/*mengatur padding*/
+}
+div.footer {
+    clear: both;/*mengatur sifat layout*/
+    background-color: #5050FF;/*mengatur warna background*/
+    color: white;/*mengatur warna font*/
+    padding: 20px ;/*mengatur padding*/
+    text-align: center;/*mengatur posisi teks*/
+    margin-top: 10px;/*mengatur margin atas*/
+}

@@ -1,0 +1,232 @@
+* {
+    font-family: sans-serif;/*mengatur jenis font*/
+}
+
+.header {
+    border: 0px solid black;/*mengatur border*/
+    border-top-left-radius: 5px;/*mengatur border radius atas kiri*/
+    border-top-right-radius: 5px;/*mengatur border radius atas kanan*/
+    background-color: #5050FF;/*mengatur warna background*/
+    color: white;/*mengatur warna font*/
+    padding: 10px;/*mengatur padding*/
+    text-align: center;/*mengatur posisi teks*/
+
+    border: 1px solid #B0C4DE;/*mengatur border*/
+}
+
+.header img {
+    width: 401px;/*mengatur lebar layout*/
+    height: 101px;/*mengatur tinggi layout*/
+    border: 0px solid gray;/*mengatur border*/
+}
+
+.wrap {
+    width: 900px;/*mengatur lebar layout*/
+    margin: 10px auto;/*mengatur margin*/
+}
+
+.badan {
+    height: 600px;/*mengatur tinggi layout*/
+}
+
+.wrap .badan .sidebar {
+    text-align: center;/*mengatur posisi teks*/
+    background: white;/*mengatur warna background*/
+    float: left;/*mengatur jenis layout*/
+    width: 30%;/*mengatur lebar layout*/
+}
+
+.wrap .badan .sidebar img {
+    text-align: center;/*mengatur posisi teks*/
+    background: #5050FF;/*mengatur warna background*/
+}
+
+.wrap .badan .content {
+    background: white;/*mengatur warna background*/
+    float: left;/*mengatur jenis layout*/
+    height: 100%;/*mengatur tinggi layout*/
+    width: 70%;/*mengatur lebar layout*/
+}
+
+div.head {
+    color: white;/*mengatur warna font*/
+    border: 0px solid black;/*mengatur border*/
+    border-radius: 5px;/*mengatur border radius*/
+    width: 95%;/*mengatur lebar layout*/
+    float: left;/*mengatur jenis layout*/
+    text-align: center;/*mengatur posisi teks*/
+    background: #5050FF;/*mengatur warna background*/
+    padding: 5px;/*mengatur padding*/
+}
+
+div.head img {
+    width: 100px;/*mengatur lebar layout*/
+    height: 100px;/*mengatur tinggi layout*/
+}
+
+div .isi {
+    text-align: center;/*mengatur posisi teks*/
+    background: #c6d4e1;/*mengatur warna background*/
+    padding: 5px;/*mengatur padding*/
+    height: 585px;/*mengatur tinggi layout*/
+    border-top-left-radius: 5px;/*mengatur border radius atas kiri*/
+    border-top-right-radius: 5px;/*mengatur boder radius atas kanan*/
+    margin-left: 5px;/*mengatur margin*/
+}
+
+.imgcenter {
+    display: block;/*mengatur jenis display*/
+    margin: 0px auto;/*mengatur margin*/
+    text-align: center;/*mengatur posisi teks*/
+}
+
+div .isi {
+    text-align: center;/*mengatur posisi teks*/
+    background: #c6d4e1;/*mengatur warna background*/
+    padding: 5px;/*mengatur padding*/
+    height: 585px;/*mengatur tinggi layout*/
+    border-top-left-radius: 5px;/*mengatur border radius atas kiri*/
+    border-top-right-radius: 5px;/*mengatur border radius atas kanan*/
+    margin-left: 5px;/*mengatur margin kiri*/
+}
+
+.informasi {
+    width: 100%;/*mengatur lebar layout*/
+    border-radius: 5px;/*mengatur border radius*/
+    background: white;/*mengatur warna background*/
+    padding: 2px;/*mengatur padding*/
+}
+
+div.artikel {
+    padding: 10px 22px;/*mengatur padding*/
+    color: #808080;/*mengatur warna font*/
+    background: #f9f9f9;/*mengatur warna background*/
+}
+
+div.artikel div.grup {
+    text-align: center;/*mengatur posisi teks*/
+    margin: 16px 0;/*mengatur margin*/
+    padding: 0xp 5px;/*mengatur padding*/
+}
+
+div.artikel div.grup label,
+div.artikel div.grup input {
+    display: block;/*mengatur jenis display*/
+}
+
+div.artikel div.grup span {
+    color: red;/*mengatur warna font*/
+    display: block;/*mengatur jenis display layout*/
+    text-align: left;/*mengatur posisi teks*/
+    margin: 3px;/*mengatur margin*/
+    font-size: 12px;/*mengatur ukuran font*/
+
+}
+
+div.artikel div.grup label {
+    font-size: 13px;/*mengatur ukuran font*/
+    margin-bottom: 10px;/*mengatur margin bawah*/
+    color: #5050FF;/*mengatur warna font*/
+}
+
+div.artikel div.grup input[type="text"],
+div.artikel div.grup input[type="password"] 
+{
+    width: 97%;/*mengatur lebar layout*/
+    height: 30px;/*mengatur tinggi layout*/
+    padding: 5px 10px;/*mengatur padding*/
+    background: #eeeeee;/*mengatur background*/
+    border: none;/*mengatur boder*/
+    color: #808080;/*mengatur warna font*/
+}
+
+div.artikel div.grup input[type="submit"] {
+    background: #5050FF;/*mengatur background*/
+    padding: 10px 20px;/*mengatur padding*/
+    margin: 0 auto;/*mengatur margin*/
+    border: 1px solid #33a2cd;/*mengatur border*/
+    border-radius: 5px;/*mengatur border radius*/
+    color: #fff;/*mengatur warna font*/
+    cursor: pointer;/*mengatur jenis cursor*/
+}
+
+div.artikel div.grup input[type="submit"]:hover {
+    background: #226d8a;/*mengatur warna background*/
+}
+
+.menu-pilihan {
+    background-color: #F1F1F1;/*mengatur warna background*/
+}
+
+.menu-pilihan ul {
+    list-style-type: none;/*mengatur style list*/
+    margin: 0;/*mengatur margin*/
+    padding: 0;/*padding*/
+    overflow: hidden;/*mengatur overflow untuk hyperlink text*/
+}
+
+.menu-pilihan ul li {
+    float: right;/*mengatur posisi layout*/
+}
+
+
+.menu-pilihan li a {
+    font-size: 120%;/*mengatur ukuran font*/
+    display: inline-block;/*mengatur jenis display layout*/
+    color: #3030FF;/*mengatur warna font*/
+    text-align: center;/*mengatur posisi teks*/
+    padding: 14px 16px;/*mengatur padding*/
+    text-decoration: none;/*mengatur dekorasi teks*/
+}
+
+.menu-pilihan li a:hover {
+    background-color: #C1C1C1;/*mengatur warna background*/
+}
+
+li.dropdown {
+    display: inline-block;/*mengatur jenis display layout*/
+}
+
+.wrap .footer {
+    color: white;/*mengatur warna font*/
+    background: #3141ff;/*mengatur warna background*/
+    text-align: center;/*mengatur posisi teks*/
+    padding: 10px;/*mengatur padding*/
+}
+
+div .riwayat {
+    font-size: 12px;/*mengatur ukuran font*/
+    text-align: center;/*mengatur posisi teks*/
+    padding: 15px;/*mengatur padding*/
+    margin-left: 1px;/*mengatur margin kiri*/
+    margin-right: 1px;/*mengatur margin kanan*/
+    background-color: white;/*mengatur warna background*/
+    padding-bottom: 20px;/*mengatur padding bawah*/
+}
+
+table,
+td {
+    border: 1px solid black;/*mengatur border*/
+}
+
+.tentang {
+    float: left;/*mengatur posisi layout*/
+    width: 95%;/*mengatur lebar layout*/
+}
+
+.tentang ul {
+    list-style-type: none;/*mengatur style list*/
+    margin: 0;/*mengatur margin*/
+    padding: 0;/*mengatur padding*/
+    overflow: hidden;/*mengatur overflow*/
+}
+
+.tentang li a {
+    text-decoration: none;/*mengatur posisi teks*/
+    color: blue;/*mengatur warna font*/
+}
+
+img {
+    height: 190px;/*mengatur tinggi layout*/
+    width: 100%;/*mengatur lebar layout*/
+}

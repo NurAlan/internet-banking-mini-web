@@ -1,0 +1,107 @@
+* {
+    margin: 0px;/*mengatur margin*/
+    padding: 0px;/*mengatur padding*/
+    font-family: Arial, Helvetica, sans-serif;/*mengatur jenis font*/
+}
+
+body {
+    font-size: 120%;/*mengatur ukuran font*/
+    background: #F9F9F9;/*mengatur warna background*/
+}
+
+.header {
+    background-color: #5050FF;/*mengatur warna background*/
+    color: white;/*mengatur warna font*/
+    padding: 10px ;/*mengatur padding*/
+    text-align: center;/*mengatur posisi teks*/
+    border: 1px solid #B0C4DE;/*mengatur border*/
+}
+.header img {
+    border: 0px solid gray;/*mengatur border*/
+}
+.sub-header {
+    color: #5050FF;/*mengatur warna font*/
+    background-color: #F1F1F1;/*mengatur warna background*/
+    padding: 20px 0px 20px 50px;/*mengatur padding*/
+}
+
+.container {
+    background-color: #F9F9F9;/*mengatur warna background*/
+}
+form {
+    width: 30%;/*mengatur lebar layout*/
+    margin: 0px auto;/*mengatur margin*/
+    padding: 20px;/*mengatur padding*/
+    border: 1px solid #B0C4DE;/*mengatur border*/
+    border-top: none;/*mengatur border atas*/
+    background: white;/*mengatur warna background*/
+    border-radius: 0px 0px 10px 10px;/*mengatur border radius*/
+}
+.input-group {
+    margin: 10px 0px 10px 0px;/*mengatur margin*/
+    
+}
+.input-group label{
+    display: block;/*mengatur jenis display*/
+    text-align: left;/*mengatur posisi teks*/
+    margin: 3px;/*mengatur margin*/
+}
+.input-group label.biru {
+    color: dimgray;/*mengatur warna font*/
+}
+.input-group input {
+    height: 30px;/*mengatur tinggi layout*/
+    width: 93%;/*mengatur lebar layout*/
+    padding: 5px 10px;/*mengatur padding*/
+    font-size: 16px;/*mengatur ukuran font*/
+    border-radius: 5px;/*mengatur border radius*/
+    border: 1px solid gray;/*mengatur border*/
+}
+.input-group span {
+    color: red;/*mengatur warna font*/
+    display: block;/*mengatur jenis layout*/
+    text-align: left;/*mengatur posisi teks*/
+    margin: 3px;/*mengatur margin*/
+    font-size: 12px;/*mengatur ukuran font*/
+    
+}
+.input-group span.berhasil {
+    border : 2px solid #00b300;/*mengatur border*/
+    border-radius: 5px;/*mengatur border radius*/
+    padding: 5px 10px;/*mengatur padding*/
+	background-color: #99ff99;/*mengatur warna background*/
+	color: #00b300;/*mengatur warna font*/
+	display: block;/*mengatur jenis display*/
+	margin: 3px;/*mengatur margin*/
+    font-size: 16px;/*mengatur ukuran font*/
+}
+.input-group select {
+    height: 30px;/*mengatur tinggi layout*/
+    width: 98%;/*mengatur lebar layout*/
+    padding: 5px 10px;/*mengatur padding*/
+    font-size: 16px;/*mengatur ukuran font*/
+    border-radius: 5px;/*mengatur border radius*/
+    border: 1px solid gray;/*mengatur border*/
+}
+
+.btn {
+    cursor: pointer;/*mengatur jenis cursor*/
+    padding: 10px;/*mengatur padding*/
+    font-size: 15px;/*mengatur ukuran font*/
+    color: white;/*mengatur warna font*/
+    border: none;/*mengatur border*/
+    border-radius: 5px;/*mengatur border radius*/
+}
+.btn-submit {
+    background:#5F9EA0;/*mengatur warna background*/
+    
+}
+.btn-submit:hover {
+    background:#427e80;/*mengatur warna background*/
+    font-size: 18px;/*mengatur ukuran font*/
+}
+
+.radio-button {
+    margin: 10px 0px 10px 0px;/*mengatur margin*/
+}
+

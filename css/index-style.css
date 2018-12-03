@@ -1,0 +1,143 @@
+*{
+    padding: 0;/*mengatur padding*/
+    margin: 0;/*mengatur margin*/
+    box-sizing: border-box;/*mengatur jenis layout*/
+    font-family:sans-serif;/*mengatur jenis font*/
+}
+
+body{
+    background: #fff;/*mengatur warna background*/
+}
+
+.head {
+    background-color: #5050FF;/*mengatur warna background*/
+    color: white;/*mengatur warna font*/
+    padding: 10px ;/*mengatur padding*/
+    text-align: center;/*mengatur posisi teks*/
+    border: 1px solid #B0C4DE;/*mengatur border*/
+}
+.head img {
+    border: 0px solid gray;/*mengatur border*/
+}
+
+.sub-header {
+    color: #5050FF;/*mengatur warna font*/
+    background-color: #F1F1F1;/*mengatur warna background*/
+    padding: 20px 50px;/*mengatur padding*/
+}
+
+.sub-header h4 {
+    text-align: right;/*mengatur posisi teks*/
+    overflow: hidden;/*mengatur overflow text hyperlink*/
+}
+.sub-header h4 a {
+    background: #F9F9F9;/*mengatur warna background*/
+    padding: 5px;/*mengatur padding*/
+    text-decoration: none;/*mengatur dekorasi teks*/
+}
+.sub-header h4 a:hover {
+    background: #EEE;/*mengatur warna background*/
+}
+.clear {
+    clear: both;/*mengatur sifat layout*/
+}
+
+div.sidebar {
+    float: left;/*mengatur sifat layout*/
+}
+div.sidebar img {
+    width: 600px;/*mengatur lebar layout*/
+    height: 400px;/*mengatur tinggi layout*/
+    margin-left: 10%;/*mengatur margin kiri*/
+}
+div.sidebar h5 {
+    margin-left: 10%;/*mengatur margin kiri*/
+    margin-top: 5px;/*mengatur margin atas*/
+    margin-bottom: 10px;/*mengatur margin bawah*/
+    font-family: cursive;/*mengatur jenis font*/
+}
+div.content{
+    background: #ffffff;/*mengatur warna background*/
+    width: 350px;/*mengatur lebar layout*/
+    margin: 50px auto 0;/*mengatur margin*/
+    border-radius: 16px;/*mengatur boder radius*/
+    min-height: 256px;/*mengatur tinggi minimal*/
+    overflow: hidden;/*mengatur overflow text hyperlink*/
+}
+
+div.header{
+    text-align: center;/*mengatur posisi teks*/
+    background: #5050FF;/*mengatur warna background*/
+    padding: 10px 22px;/*mengatur padding*/
+    height: 60px;/*mengatur tinggi*/
+}
+
+div.header h2.judul{
+    color: #fff;/*mengatur warna font*/
+    font-weight: normal;/*mengatur ukuran lebar font*/
+    line-height: 40px;/*mengatur garis tinggi*/
+    display: inline-block;/*mengatur jenis display*/
+}
+
+div.artikel{
+    padding:10px 22px;/*mengatur padding*/
+    color: #808080;/*mengatur warna font*/
+    background: #f9f9f9;/*mengatur warna background*/
+}
+
+div.artikel div.grup{
+    margin: 16px 0;/*mengatur margin*/
+}
+
+div.artikel div.grup label,
+div.artikel div.grup input{
+    display: block;/*mengatur display*/
+}
+
+div.artikel div.grup label{
+    font-size: 13px;/*mengatur ukuran font*/
+    margin-bottom: 10px;/*mengatur margin bawah*/
+    color: #5050FF;/*mengatur warna font*/
+}
+div.artikel div.grup span{
+    color: red;/*mengatur warna font*/
+    display: block;/*mengatur jenis display*/
+    text-align: left;/*mengatur posisi teks*/
+    margin: 3px;/*mengatur margin*/
+    font-size: 12px;/*mengatur ukuran font*/
+    
+}
+
+div.artikel div.grup input[type="text"],
+div.artikel div.grup input[type="password"]{
+    width: 100%;/*mengatur lebar layout*/
+    height: 30px;/*mengatur tinggi layout*/
+    padding: 0 10px;/*mengatur padding*/
+    background: #eeeeee;/*mengatur warna background*/
+    border:none;/*mengatur border*/
+    color: #808080;/*mengatur warna font*/
+}
+
+div.artikel div.grup input[type="submit"]{
+    background: #5050FF;/*mengatur warna background*/
+    padding: 10px 20px;/*mengatur padding*/
+    margin: 0 auto;/*mengatur margin*/
+    border: 1px solid #33a2cd;/*mengatur border*/
+    border-radius: 5px;/*mengatur border radius*/
+    color: #fff;/*mengatur warna font*/
+    cursor: pointer;/*mengatur jenis kursor*/
+}
+
+div.artikel div.grup input[type="submit"]:hover{
+    background: #226d8a;/*mengatur warna background*/
+}
+
+
+div.footer {
+    clear: both;/*mengatur sifat layout*/
+    background-color: #5050FF;/*mengatur warna background*/
+    color: white;/*mengatur warna font*/
+    padding: 20px ;/*mengatur padding*/
+    text-align: center;   /*mengatu posisi teks*/
+}
+
